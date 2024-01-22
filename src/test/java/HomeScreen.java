@@ -10,8 +10,10 @@ import java.util.List;
 public class HomeScreen {
     @FindBy(className = "android.widget.TextView")
     List<WebElement> np_req;
+    AndroidDriver driver;
 
     public HomeScreen(AndroidDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
