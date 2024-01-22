@@ -1,0 +1,7 @@
+<suite thread-count="1" verbose="1" name="EVR NP Transfer App Automation">
+    <test name="NP Transfer Requests">
+        <classes>
+            <class name="HomeScreenTestRunner"></class>
+        </classes>
+    </test>
+</suite>
